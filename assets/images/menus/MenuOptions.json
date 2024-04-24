@@ -1,0 +1,16 @@
+{	
+	"story_mode": true,
+	"freeplay": true,
+	"options": true,
+	"awards": true,
+	"credits": true,
+	"donate": true,
+
+	"menu_bg": "bg",
+	"freeplay_bg": "bg",
+	"options_bg": "bg",
+	"awards_bg": "bg",
+	"credits_bg": "bg",
+
+	"main_font": "vcr.ttf"
+}

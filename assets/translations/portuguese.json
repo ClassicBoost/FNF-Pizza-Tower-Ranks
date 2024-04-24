@@ -1,0 +1,27 @@
+{
+    "translation_name": "Portuguese (Português)",
+
+    "score_info": "Pontuação",
+    "accuracy_info": "Precisão",
+    "misses_info": "Sente falta",
+    "rank_info": "Classificação",
+    "dead_info": "morreu",
+    "botplay_score": "Botplay usado - Pontuação não contada.",
+
+    "volume_txt": "VOLUME",
+    "volume_max": "MÁX.",
+
+    "version_txt": "Psicopata para sempre",
+    "mod_info": "Modo",
+    "base_mod": "Motor Básico",
+    "experimental_active": "RECURSOS EXPERIMENTAIS ATIVADOS",
+
+    "sick_judge": "Doente",
+    "good_judge": "Boa",
+    "bad_judge": "Ruim",
+    "shit_judge": "Horrível",
+    "miss_judge": "Perder",
+    "note_counter": "Notas atingidas",
+
+    "freeplay_personal": "MELHOR PESSOAL"
+}

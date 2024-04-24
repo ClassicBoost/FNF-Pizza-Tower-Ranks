@@ -1,0 +1,27 @@
+{
+    "translation_name": "Spanish (Español)",
+
+    "score_info": "Puntaje",
+    "accuracy_info": "Exactitud",
+    "misses_info": "falla",
+    "rank_info": "Rango",
+    "dead_info": "fallecido",
+    "botplay_score": "Botplay usado: puntuación no contada.",
+
+    "volume_txt": "VOLUMEN",
+    "volume_max": "Máximo",
+
+    "version_txt": "Psicología para siempre",
+    "mod_info": "Modificación",
+    "base_mod": "Motor básico",
+    "experimental_active": "FUNCIONES EXPERIMENTALES HABILITADAS",
+
+    "sick_judge": "Enfermos",
+    "good_judge": "Bueno",
+    "bad_judge": "Malo",
+    "shit_judge": "Horrible",
+    "miss_judge": "Extrañar",
+    "note_counter": "Notas acertadas",
+
+    "freeplay_personal": "MEJOR MARCA PERSONAL"
+}
