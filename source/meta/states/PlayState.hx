@@ -1755,7 +1755,7 @@ class PlayState extends MusicBeatState
 
 					if (swagNote.mustPress)
 					{
-						if (swagNote.giveScore) totalNotesInSong += 1;
+						if (swagNote.giveScore && !swagNote.hitCausesMiss) totalNotesInSong += 1;
 						swagNote.x += FlxG.width / 2; // general offset
 					}
 					else {}
@@ -3422,7 +3422,7 @@ class PlayState extends MusicBeatState
 		var rating:FlxSprite = new FlxSprite();
 		rating.loadGraphic(Paths.image('ui/' + uiElement + 'ratings/' + (allSicks == true && !negative ? 'sick-perfect' : daRatingLol) + daTiming + uiPostfix));
 		rating.screenCenter();
-		rating.x = coolText.x - (hudRating ? 200 : GF_X - 360);
+		rating.x = coolText.x - (hudRating ? 200 : (GF_X*-1) + 340);
 		rating.y -= 60 - (hudRating ? 0 : GF_Y);
 		rating.acceleration.y = 550;
 		if (hudRating) rating.cameras = [camHUD];
@@ -3433,7 +3433,7 @@ class PlayState extends MusicBeatState
 
 		var comboSpr:FlxSprite = new FlxSprite().loadGraphic(Paths.image('ui/' + uiElement + 'combo${allSicks == true && !negative ? '-golden' : ''}' + uiPostfix));
 		comboSpr.screenCenter();
-		comboSpr.x = coolText.x - (hudRating ? 160 : GF_X - 400);
+		comboSpr.x = coolText.x - (hudRating ? 160 : (GF_X*-1) + 300);
 		comboSpr.y += (hudRating ? 0 : GF_Y);
 		comboSpr.acceleration.y = 600;
 		comboSpr.velocity.y -= 150;
@@ -3484,7 +3484,7 @@ class PlayState extends MusicBeatState
 		{
 			var numScore:FlxSprite = new FlxSprite().loadGraphic(Paths.image('ui/' + uiElement + 'combo/${(allSicks == true && !negative ? 'golden/' : '')}num' + Std.int(i) + uiPostfix));
 			numScore.screenCenter();
-			numScore.x = coolText.x + (43 * daLoop) - (hudRating ? 250 : -310 + GF_X);
+			numScore.x = coolText.x + (43 * daLoop) - (hudRating ? 250 : 390 + (GF_X*-1));
 			numScore.y += 80 + (hudRating ? 0 : GF_Y);
 			if (hudRating) numScore.cameras = [camHUD];
 

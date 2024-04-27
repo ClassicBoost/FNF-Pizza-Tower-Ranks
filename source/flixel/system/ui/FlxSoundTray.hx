@@ -113,7 +113,7 @@ class FlxSoundTray extends Sprite
 		}
 		else if (y > -height)
 		{
-			y -= (MS / 10000) * FlxG.height * 2;
+			y -= (MS / 50000) * FlxG.height * 2;
 
 			if (y <= -height)
 			{
